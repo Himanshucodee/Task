@@ -1,0 +1,34 @@
+.fade-transition {
+  transition: all 0.5s ease;
+  overflow: hidden;
+  visibility: visible;
+  opacity: 1;
+  position: absolute;
+}
+.fade-enter, .fade-leave {
+  opacity: 0;
+  visibility: hidden;
+}
+
+#slider{
+    position:center;
+    margin-right:500px;
+}
+
+.center {
+    margin: auto;
+    width: 63%;
+    padding: 2px;
+     text-align: center;
+     display: block;
+       position: relative;
+}
+
+body{
+    background: blueviolet;
+}
+
+h3{
+    font-family: cursive;
+    color:wheat
+}
